@@ -50,7 +50,7 @@
                 &zip_xy_to_scroll_mapper
                 &zip_scroll_x_scaler 0 1
                 &zip_scroll_transform INPUT_TRANSFORM_Y_INVERT
-                &zip_scroll_scaler 1 10 // Scroll sensitivity setting (making the denominator larger slows it down)
+                &zip_scroll_scaler 1 2 // Scroll sensitivity setting (making the denominator larger slows it down)
             >;
         };
         scroller_horizontal {
@@ -58,7 +58,7 @@
             input-processors = <
                 &zip_xy_to_scroll_mapper
                 &zip_scroll_y_scaler 0 1
-                &zip_scroll_scaler 1 10
+                &zip_scroll_scaler 1 3
             >;
         };
     };
