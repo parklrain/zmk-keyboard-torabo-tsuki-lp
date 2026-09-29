@@ -10,12 +10,12 @@
 
         combo_lpar {
             bindings = <&kp LPAR>;
-            key-positions = <15 16>;
+            key-positions = <15 14>;
         };
 
         combo_rpar {
             bindings = <&kp RPAR>;
-            key-positions = <19 20>;
+            key-positions = <20 21>;
         };
 
         combo_next {
@@ -90,12 +90,12 @@
 
         combo_lbkt {
             bindings = <&kp LBKT>;
-            key-positions = <17 16>;
+            key-positions = <16 15>;
         };
 
         combo_rbkt {
             bindings = <&kp RBKT>;
-            key-positions = <19 18>;
+            key-positions = <19 20>;
         };
 
         combo_sym {
@@ -183,7 +183,7 @@
 &trans  &trans       &trans       &trans        &trans        &trans                                          &trans        &trans        &trans        &trans       &trans          &trans
 &trans  &kp Q        &kp W        &kp E         &kp R         &kp T                                           &kp Y         &kp U         &kp I         &kp O        &kp P           &trans
 &trans  &hml LWIN A  &hml LALT S  &hml LSHFT D  &hml LCTRL F  &kp G        &trans        &trans               &kp H         &hmr LCTRL J  &hmr RSHFT K  &hmr LALT L  &hmr RWIN SEMI  &trans
-&trans  &kp Z        &kp X        &kp C         &kp V         &kp B        &mo 5         &mo 3                &kp N         &kp M         &ltq 5 COMMA  &ltq 5 DOT   &ltq 6 B        &trans
+&trans  &kp Z        &kp X        &kp C         &kp V         &kp B        &ltq 5 RCTRL  &ltq 3 RALT          &kp N         &kp M         &ltq 5 COMMA  &ltq 5 DOT   &ltq 6 B        &trans
 &trans  &kp LCTRL    &kp LGUI     &kp LALT      &ltq 3 TAB    &ltq 1 BSPC  &ltq 2 ENTER  &magic_shft LSHFT 0  &ltq 1 SPACE  &trans        &trans        &kp LALT     &kp LCTRL       &trans
             >;
 
