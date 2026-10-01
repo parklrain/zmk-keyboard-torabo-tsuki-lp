@@ -55,12 +55,12 @@
 
         combo_lang {
             bindings = <&kp RALT>;
-            key-positions = <29 43>;
+            key-positions = <33 34>;
         };
 
         combo_hanja {
             bindings = <&kp RCTRL>;
-            key-positions = <17 29>;
+            key-positions = <34 35>;
         };
 
         combo_esc {
