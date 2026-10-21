@@ -10,12 +10,12 @@
 
         combo_lpar {
             bindings = <&kp LPAR>;
-            key-positions = <15 14>;
+            key-positions = <15 27>;
         };
 
         combo_rpar {
             bindings = <&kp RPAR>;
-            key-positions = <20 21>;
+            key-positions = <20 34>;
         };
 
         combo_next {
@@ -55,12 +55,12 @@
 
         combo_lang {
             bindings = <&kp RALT>;
-            key-positions = <33 19>;
+            key-positions = <47 48>;
         };
 
         combo_hanja {
             bindings = <&kp RCTRL>;
-            key-positions = <34 20>;
+            key-positions = <46 47>;
         };
 
         combo_esc {
@@ -90,12 +90,12 @@
 
         combo_lbkt {
             bindings = <&kp LBKT>;
-            key-positions = <15 16>;
+            key-positions = <16 28>;
         };
 
         combo_rbkt {
             bindings = <&kp RBKT>;
-            key-positions = <20 19>;
+            key-positions = <19 33>;
         };
 
         combo_sym {
@@ -105,12 +105,12 @@
 
         combo_lbrc {
             bindings = <&kp LBRC>;
-            key-positions = <16 17>;
+            key-positions = <17 29>;
         };
 
         combo_rbrc {
             bindings = <&kp RBRC>;
-            key-positions = <18 19>;
+            key-positions = <18 32>;
         };
     };
 
