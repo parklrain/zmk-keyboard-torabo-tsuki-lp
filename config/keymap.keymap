@@ -242,11 +242,11 @@
 
         Num_layer {
             bindings = <
-&trans  &trans     &trans    &trans    &trans     &trans                           &trans     &trans    &trans     &trans     &trans     &trans
-&trans  &kp GRAVE  &trans    &kp UP    &kp BSPC   &kp DEL                          &kp MINUS  &kp N7    &kp N8     &kp N9     &kp ASTRK  &trans
-&trans  &kp RALT   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_UP  &trans     &trans     &kp PLUS   &kp DLLR  &kp PRCNT  &kp CARET  &kp SQT    &trans
-&trans  &kp RCTRL  &trans    &kp HOME  &kp END    &kp PG_DN  &kp SPACE  &kp EQUAL  &kp COMMA  &kp N1    &kp N2     &kp N3     &kp SLASH  &trans
-&trans  &trans     &trans    &trans    &trans     &kp N0     &trans     &kp DOT    &kp N0     &trans    &trans     &trans     &trans     &trans
+&trans  &trans     &trans    &trans    &trans     &trans                           &trans     &trans  &trans  &trans  &trans     &trans
+&trans  &kp GRAVE  &trans    &kp UP    &kp BSPC   &kp DEL                          &kp MINUS  &kp N7  &kp N8  &kp N9  &kp ASTRK  &trans
+&trans  &kp RALT   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_UP  &trans     &trans     &kp PLUS   &kp N4  &kp N5  &kp N6  &kp SQT    &trans
+&trans  &kp RCTRL  &trans    &kp HOME  &kp END    &kp PG_DN  &kp SPACE  &kp EQUAL  &kp COMMA  &kp N1  &kp N2  &kp N3  &kp SLASH  &trans
+&trans  &trans     &trans    &trans    &trans     &kp N0     &trans     &kp DOT    &kp N0     &trans  &trans  &trans  &trans     &trans
             >;
 
             label = "NUM";
