@@ -10,12 +10,12 @@
 
         combo_lpar {
             bindings = <&kp LPAR>;
-            key-positions = <15 27>;
+            key-positions = <15 14>;
         };
 
         combo_rpar {
             bindings = <&kp RPAR>;
-            key-positions = <20 34>;
+            key-positions = <20 21>;
         };
 
         combo_next {
@@ -90,12 +90,12 @@
 
         combo_lbkt {
             bindings = <&kp LBKT>;
-            key-positions = <16 28>;
+            key-positions = <16 15>;
         };
 
         combo_rbkt {
             bindings = <&kp RBKT>;
-            key-positions = <19 33>;
+            key-positions = <19 20>;
         };
 
         combo_sym {
@@ -105,12 +105,52 @@
 
         combo_lbrc {
             bindings = <&kp LBRC>;
-            key-positions = <17 29>;
+            key-positions = <17 16>;
         };
 
         combo_rbrc {
             bindings = <&kp RBRC>;
+            key-positions = <18 19>;
+        };
+
+        combo_lwin {
+            bindings = <&kp LWIN>;
+            key-positions = <17 29>;
+        };
+
+        combo_lctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <16 28>;
+        };
+
+        combo_lshft {
+            bindings = <&kp LSHFT>;
+            key-positions = <15 27 15>;
+        };
+
+        combo_lalt {
+            bindings = <&kp LALT>;
+            key-positions = <14 26>;
+        };
+
+        combo_rwin {
+            bindings = <&kp RWIN>;
             key-positions = <18 32>;
+        };
+
+        combo_rctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <19 33>;
+        };
+
+        combo_rshft {
+            bindings = <&kp RSHFT>;
+            key-positions = <20 34>;
+        };
+
+        combo_ralt {
+            bindings = <&kp LALT>;
+            key-positions = <21 35>;
         };
     };
 
@@ -190,11 +230,11 @@
 
         Default_layer {
             bindings = <
-&trans  &trans       &trans       &trans        &trans        &trans                                          &trans        &trans        &trans        &trans       &trans          &trans
-&trans  &kp Q        &kp W        &kp E         &kp R         &kp T                                           &kp Y         &kp U         &kp I         &kp O        &kp P           &trans
-&trans  &hml LWIN A  &hml LALT S  &hml LSHFT D  &hml LCTRL F  &kp G        &trans        &trans               &kp H         &hmr LCTRL J  &hmr RSHFT K  &hmr LALT L  &hmr RWIN SEMI  &trans
-&trans  &kp Z        &kp X        &kp C         &kp V         &kp B        &ltq 5 RCTRL  &ltq 3 RALT          &kp N         &kp M         &ltq 5 COMMA  &ltq 5 DOT   &ltq 6 B        &trans
-&trans  &kp LCTRL    &kp LGUI     &kp LALT      &ltq 3 TAB    &ltq 1 BSPC  &ltq 2 ENTER  &magic_shft LSHFT 0  &ltq 1 SPACE  &trans        &trans        &kp LALT     &kp LCTRL       &trans
+&trans  &trans     &trans    &trans    &trans      &trans                                          &trans        &trans  &trans        &trans      &trans     &trans
+&trans  &kp Q      &kp W     &kp E     &kp R       &kp T                                           &kp Y         &kp U   &kp I         &kp O       &kp P      &trans
+&trans  &kp A      &kp S     &kp D     &kp F       &kp G        &trans        &trans               &kp H         &kp J   &kp K         &kp L       &kp SEMI   &trans
+&trans  &kp Z      &kp X     &kp C     &kp V       &kp B        &ltq 5 RCTRL  &ltq 3 RALT          &kp N         &kp M   &ltq 5 COMMA  &ltq 5 DOT  &ltq 6 B   &trans
+&trans  &kp LCTRL  &kp LGUI  &kp LALT  &ltq 3 TAB  &ltq 1 BSPC  &ltq 2 ENTER  &magic_shft LSHFT 0  &ltq 1 SPACE  &trans  &trans        &kp LALT    &kp LCTRL  &trans
             >;
 
             label = "BASE";
@@ -202,11 +242,11 @@
 
         Num_layer {
             bindings = <
-&trans  &trans          &trans          &trans           &trans            &trans                           &trans     &trans         &trans         &trans        &trans         &trans
-&trans  &kp GRAVE       &trans          &kp UP           &kp BSPC          &kp DEL                          &kp MINUS  &kp N7         &kp N8         &kp N9        &kp ASTRK      &trans
-&trans  &hml LWIN RALT  &hml LALT LEFT  &hml LSHFT DOWN  &hml LCTRL RIGHT  &kp PG_UP  &trans     &trans     &kp PLUS   &hmr LCTRL N4  &hmr RSHFT N5  &hmr LALT N6  &hmr RWIN SQT  &trans
-&trans  &kp RCTRL       &trans          &kp HOME         &kp END           &kp PG_DN  &kp SPACE  &kp EQUAL  &kp COMMA  &kp N1         &kp N2         &kp N3        &kp SLASH      &trans
-&trans  &trans          &trans          &trans           &trans            &kp N0     &trans     &kp DOT    &kp N0     &trans         &trans         &trans        &trans         &trans
+&trans  &trans     &trans    &trans    &trans     &trans                           &trans     &trans    &trans     &trans     &trans     &trans
+&trans  &kp GRAVE  &trans    &kp UP    &kp BSPC   &kp DEL                          &kp MINUS  &kp N7    &kp N8     &kp N9     &kp ASTRK  &trans
+&trans  &kp RALT   &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_UP  &trans     &trans     &kp PLUS   &kp DLLR  &kp PRCNT  &kp CARET  &kp SQT    &trans
+&trans  &kp RCTRL  &trans    &kp HOME  &kp END    &kp PG_DN  &kp SPACE  &kp EQUAL  &kp COMMA  &kp N1    &kp N2     &kp N3     &kp SLASH  &trans
+&trans  &trans     &trans    &trans    &trans     &kp N0     &trans     &kp DOT    &kp N0     &trans    &trans     &trans     &trans     &trans
             >;
 
             label = "NUM";
@@ -226,11 +266,11 @@
 
         Fnc_layer {
             bindings = <
-&trans  &trans             &trans             &trans          &trans           &trans                            &trans     &trans         &trans         &trans        &trans         &trans
-&trans  &kp ESC            &kp PRINTSCREEN    &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp INS                           &kp LC(Y)  &kp F7         &kp F8         &kp F9        &kp F12        &trans
-&trans  &hml (LWIN) LC(A)  &hml (LALT) LC(S)  &trans          &trans           &trans     &trans         &trans  &kp HOME   &hmr LCTRL F4  &hmr RSHFT F5  &hmr LALT F6  &hmr RWIN F11  &trans
-&trans  &kp LC(Z)          &kp LC(X)          &kp LC(C)       &kp LC(V)        &kp LC(B)  &kp LC(LS(Z))  &trans  &kp END    &kp F1         &kp F2         &kp F3        &kp F10        &trans
-&trans  &trans             &trans             &trans          &trans           &trans     &trans         &trans  &trans     &trans         &trans         &trans        &trans         &trans
+&trans  &trans     &trans           &trans          &trans           &trans                            &trans     &trans  &trans  &trans  &trans   &trans
+&trans  &kp ESC    &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp INS                           &kp LC(Y)  &kp F7  &kp F8  &kp F9  &kp F12  &trans
+&trans  &kp LC(A)  &kp LC(S)        &trans          &trans           &trans     &trans         &trans  &kp HOME   &kp F4  &kp F5  &kp F6  &kp F11  &trans
+&trans  &kp LC(Z)  &kp LC(X)        &kp LC(C)       &kp LC(V)        &kp LC(B)  &kp LC(LS(Z))  &trans  &kp END    &kp F1  &kp F2  &kp F3  &kp F10  &trans
+&trans  &trans     &trans           &trans          &trans           &trans     &trans         &trans  &trans     &trans  &trans  &trans  &trans   &trans
             >;
 
             label = "FNC";
